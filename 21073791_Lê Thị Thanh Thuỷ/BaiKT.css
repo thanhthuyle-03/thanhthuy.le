@@ -1,0 +1,323 @@
+/* CSS */
+.header{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-left: 20px;
+}
+
+.body {
+  font-family: Arial;
+}
+
+/* BT1 */
+.BT1 {
+  margin: 0;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.logo-VT {
+  text-align: center;
+  padding: 0;
+}
+
+.logo-VT img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+}
+
+.company-name {
+  margin: 0;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.company-name strong{
+  color:rgb(238, 15, 15)
+}
+
+.company-name p {
+font-size: 20px;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+}
+
+.product-button {
+  background-color: white; 
+color: black; 
+border: 2px solid #060606; 
+padding: 15px 32px; 
+text-align: center; 
+text-decoration: none; 
+display: inline-block; 
+font-size: 18px; 
+margin: 4px 2px; 
+cursor: pointer; 
+border-radius: 12px; 
+margin-right: 1rem;
+}
+
+.product-button:hover {
+  background-color: #0d92eb;
+  color: white;
+}
+
+.product-button .male{
+  color: #000000;
+  font-size: 15px;
+}
+
+.product-button .female{
+  color: #000000;
+  font-size: 10px;
+}
+
+/* BT2 */
+.BT2 {
+  margin: 0;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.BT2 .thetag button {
+  background-color: #4cff34; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 15px;
+}
+
+.BT2 .thetag  button:hover {
+  background-color: #0056b3; 
+}
+
+/* CSS BT3 */
+.BT3 {
+  margin: 0;
+  padding-left: 20px;
+
+}
+.baibao {
+  margin-left: 300px;
+  margin-right: 200px;
+}
+
+.congdung {
+margin-left: 30px;
+}
+
+.BT3  button {
+background-color: #05909a; 
+color: white; 
+padding: 10px 20px; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+text-align: left;
+margin-left: 20px;
+}
+
+.BT3   button:hover {
+background-color: #ff3e3e; 
+color: azure;
+}
+
+ /* BT4 */
+.BT4 {
+  margin: 0;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.BT4 .Email {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+}
+
+ .logo-email {
+  text-align: center;
+  padding: 0;
+}
+
+.logo .logo-email {
+  color: rgb(218, 54, 255);
+  font-size: 40px;
+}
+.Email {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header-email {
+  margin-bottom: 2rem;
+}
+
+.header-email h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-email p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.email-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.email-input input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.email-input input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px rgba(0, 123, 255, 0.5);
+}
+
+.send-invitation-button {
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-invitation-button:hover {
+  background-color: #0069d9;
+}
+
+/* BT5 */
+.BT5 {
+  margin: 0;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.BT5 .coffee {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+}
+
+.coffee{
+  position: relative;
+  text-align: center;
+}
+
+.coffee img {
+ width: 100%;
+  height: 400px;
+}
+.coffee h1{
+  text-align: center;
+  
+}
+
+.text-coffee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.text-coffee h2{
+font-size: 25px;
+}
+.text-coffee p {
+  font-size: 20px;
+}
+
+.text-coffee a {
+  display: inline-block;
+  background-color: #f71313;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.text-coffee a:hover {
+  background-color: #555;
+}
+
+/* BT6 */
+.BT6 {
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+.footer {
+display: flex;
+justify-content: space-around;
+background-image: url('https://genk.mediacdn.vn/139269124445442048/2022/3/5/stars-in-the-sky-16464831158261870257042.jpg');
+background-size: cover;
+padding: 20px;
+}
+
+.footer-column {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.footer-column .icon-student{
+color: rgb(9, 255, 26);
+font-size: 40px;
+}
+.footer-column .icon-student-job{
+color: rgb(218, 54, 255);
+font-size: 40px;
+}
+.footer-column .icon-baibaokhoahoc{
+color: rgb(255, 0, 0);
+font-size: 40px;
+}
+
+.footer-column .icon-giaithuongquocte{
+color: rgb(0, 41, 177);
+font-size: 40px;
+}
+
+.footer-text {
+color: #fcff2e;
+font-size: 1em;
+}
+
+.footer-number {
+color: #ffffff;
+font-size: 2em;
+}
+
+ 
