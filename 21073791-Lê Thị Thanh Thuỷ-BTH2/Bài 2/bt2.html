@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h1>
+        <p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu</p>
+        <p>Các ý kiến đóng góp nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm (nếu có).</p>
+      <form name="form_DG">
+        <input type="text" name="name" placeholder="Họ và Tên">
+        <input type="text" name="id_card" placeholder="Mã thẻ"><br>
+        <input type="text" name="tel" placeholder="Số điện thoại">
+        <input type="text" name="E_mail" placeholder="Email"><br>
+        <select id="Choose">
+            <option value="" disabled selected>Chọn loại khách hàng</option>
+            <option value="VVIP">VVIP</option>
+            <option value="Normal">Normal</option>
+        </select>
+        <input type="text" name="id_HD" placeholder="Mã hóa đơn"><br>
+        <textarea cols="100" rows="5" placeholder="Nhập chi tiết mô tả" name="description"></textarea>
+        <div class="inputWithIcon">
+        <input type="submit" value="Gửi góp ý" onClick="TTDG()">
+        <i class="fa-brands fa-facebook-messenger"></i>
+        </div>
+      </form>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

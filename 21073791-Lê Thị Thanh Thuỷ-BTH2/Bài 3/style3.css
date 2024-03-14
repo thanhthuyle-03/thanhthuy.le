@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #FFF8DC, #87CEFA);
+  }
+  
+  header {
+    background-image: linear-gradient(to right, #FFF8DC, #87CEFA);
+    padding-top: 6px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #4a00e0;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  
+  hr {
+    border: none;
+    height: 3px;
+    background: #FFFFFF;
+    margin: 1px auto;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 20px;
+  }
+  
+  .thongtin {
+    padding-left: 50px;
+    flex: 0 0 25%; 
+  }
+  iframe {
+    padding-top: 20px;
+    width: 100%; 
+    height: 300px; 
+  }
+  .thongtin h3 {
+    margin-bottom: 30px;
+    font-weight: 50;
+    color: #444444;
+  }
+  
+  .thongtin ul {
+    color: #888888;;
+    list-style: none; 
+    padding: 0;
+  }
+  
+  .thongtin li {
+    margin-bottom: 5px;
+    line-height: 1.8; 
+  }
+  
+  .thongtin li i {
+    margin-right: 10px; 
+    color: #888888; 
+  }
+  
+  .lienhe {
+    padding-left: 50px;
+    flex: 1; 
+  }
+  
+  .lienhe h3 {
+    font-weight: 50;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    font-family: sans-serif;
+    border: 1px solid #BBBBBB;
+    padding: 10px;
+    width: 90%;
+    min-height: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder,
+  textarea::placeholder {
+    color: #888888;
+  }
+  
+  button {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button i {
+    margin-left: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  }
+  

@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: 0;
+}
+
+.container {
+    width: 750px; 
+    margin: 50px auto;
+    border: 0;
+    padding: 50px; 
+}
+
+h1 {
+  color: #CC33FF;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 13px;
+}
+
+form {
+  margin-top: 30px;
+  padding: 30px; 
+  padding-right: 20px;
+  background-color: #79378B;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"],
+select {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 48%; 
+    box-sizing: border-box; 
+}
+
+select{
+  
+  border: 1px solid #cccccc;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.5); 
+}
+
+select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+select option {
+  background-color: #ffffff;
+  color: #000;
+}
+
+textarea {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 98%; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif;
+}
+
+.inputWithIcon {
+  position: relative;
+  margin-top: 10px;
+}
+
+.inputWithIcon input[type="submit"] {
+  width: 120px;
+  height: 40px;
+  background-color: #00BFFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-right: 30px; 
+  box-sizing: border-box; 
+}
+
+.inputWithIcon i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #ffffff;
+}

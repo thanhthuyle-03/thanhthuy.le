@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  }
+  
+  .container {
+    width: 400px; 
+    height: 650px;
+    margin: 50px auto; 
+    border: 0px solid #ddd;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+  }
+  
+  .header {
+    background-color: #333; 
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+  }
+  .header h2 {
+      color: #ffffff;
+  }
+  .content {
+    padding: 10px;
+  }
+  
+  h2{
+      text-align: center;
+      font-size:30px;
+      color: black;
+  }
+  
+  .form{
+      margin-top: 25px;
+  }
+  .form-group {
+      margin-bottom: 10px;
+      padding: 10px;
+  }
+  
+  .form-group label {
+      margin-left:10px;
+      width: 90px;
+      font-size:18px;
+  }
+  
+  .form-group input,
+  .form-group select{
+      margin-left:10px;
+      width: 350px;
+      height:20px;
+      color:#706e6e;
+      font-size: 15px;
+      padding: 3px;
+  }
+  #input-age{
+      width: 360px;
+      height:30px;
+      padding: 5px;
+  }
+  .button-group {
+    margin-top: 30px;
+    display: flex; /* Make buttons display horizontally */
+    justify-content: center; /* Center button within the group */
+  }
+  
+  .button-group button {
+    background-color: #CDBE70; 
+    color: white;
+    padding: 10px 30px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 20px;
+  }
+  
+  .button-group button:hover {
+    background-color: #8B814C; 
+  }
+  
+  .result{
+      text-align: center;
+      font-size: 20px;
+      margin-top: -10px;
+      padding: 15px;
+      color: rgb(240, 55, 55);
+      font-weight: bold;
+      line-height: 2rem;
+  }
+  
+  
